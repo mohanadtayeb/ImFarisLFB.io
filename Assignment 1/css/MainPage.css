@@ -114,3 +114,19 @@ p {
 .video1 {
   width: 350px;
 }
+
+nav a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.selected {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    text-decoration: none;
+}
