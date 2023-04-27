@@ -3,7 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+footer {
+  background-color: purple;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+  border-bottom: 3px ridge;
+  border-top: 3px ridge;
+  color: white;
+}
 
+.navBar {
+  color: white;
+  font-size: larger;
+  margin: 15px;
+}
 header {
   background-color: purple;
   text-align: center;
@@ -44,3 +59,21 @@ body {
   max-width: 400px;
   height: auto;
 }
+
+
+nav a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.selected {
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+  text-decoration: none;
+}
+
